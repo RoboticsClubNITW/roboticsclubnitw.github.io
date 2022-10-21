@@ -3,7 +3,7 @@
   }
   
   body {
-    color: white;
+    color: rgba(208, 208, 165, 0.895);
     background-color: #2b2b5f;
     font-family: Arial, sans-serif;
     line-height: 2;
@@ -35,7 +35,7 @@
   }
   
   header {
-    background-image: url(https://images.pexels.com/photos/627823/pexels-photo-627823.jpeg);
+    background-image: url(https://picsum.photos/id/142/4272/2848);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -45,6 +45,11 @@
     position: relative;
     z-index: 1;
   }
+  
+
+
+
+
   
   .header_text {
     text-align: center;
@@ -66,50 +71,6 @@
   
   .header_text h1 {
     line-height: 1.5;
-  }
-  
-  #header_button {
-    padding: 25px;
-    background-color: #3a3a9d;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 0.8em;
-    transition: padding 0.5s;
-  }
-  
-  #header_button:hover {
-    padding: 30px;
-  }
-
-  #header_button a {
-    padding-top: 60px;
-  }
-  #header_button a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 30px;
-    height: 50px;
-    margin-left: -15px;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    box-sizing: border-box;
-  }
-  #header_button a span::before {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    content: '';
-    width: 6px;
-    height: 6px;
-    margin-left: -3px;
-    background-color: #fff;
-    border-radius: 100%;
-    -webkit-animation: sdb10 2s infinite;
-    animation: sdb10 2s infinite;
-    box-sizing: border-box;
   }
   @-webkit-keyframes sdb10 {
     0% {
@@ -151,7 +112,7 @@
     left: 0;
     padding: 0;
     width: 100%;
-    background-color: #2b2b5f;
+    background-color: #a4a4e3;
     display: flex;
     list-style-type: none;
   }
@@ -226,7 +187,7 @@
   
   @media screen and (min-width: 660px) {
     section {
-      background-color: #2b2b5f;
+      background-color: #efe9c7;
       padding: 75px;
       /* border-top: 1px dashed #ff8bc5; */
     }
