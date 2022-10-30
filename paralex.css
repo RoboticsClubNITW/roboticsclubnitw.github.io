@@ -25,7 +25,7 @@
   }
   
   section {
-    color: black;
+    color: #f1f1f1;
     background-color: rgb(165, 162, 162);
     padding: 75px 30px;
   }
@@ -54,13 +54,11 @@
   .header_text {
     text-align: center;
     color: #3a3a9d;
-  
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  
     padding: 30px;
   }
   
@@ -187,7 +185,7 @@
   
   @media screen and (min-width: 660px) {
     section {
-      background-color: #efe9c7;
+      background-color: #100F0F;
       padding: 75px;
       /* border-top: 1px dashed #ff8bc5; */
     }
