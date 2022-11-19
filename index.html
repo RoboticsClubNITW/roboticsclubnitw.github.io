@@ -27,12 +27,27 @@
                 <div class="line3"></div>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Competition</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Teams</a></li>
+                <li><a class="line" href="/">Home</a></li>
+                <li><a class="line" href="#about">About</a></li>
+                <!-- <li><a href="#">Events</a></li> -->
+                <li>
+                        <button class="dropdown">Events
+                        <div class="dropdown-content">
+                            <a href="./events.html#workshop">Workshops</a>
+                            <a href="./events.html#seminar">Seminars  </a>
+                            <a href="./events.html#contest">Contests  </a>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="dropdown">Competitions
+                        <div class="dropdown-content">
+                            <a href="./competition.html#eyantra">Eyantra</a>
+                            <a href="./competition.html#aburobocon">AbuRobocon</a>
+                        </div>
+                    </button>
+            </li>
+                <li><a class="line" href="#teams">Members</a></li>
                 <div class="logos">
                     <img src="NITW.png" alt="Logo Image">
                 </div>
@@ -41,7 +56,7 @@
         <div class="header_text">
             <h1>Robotics Club,NITW</h1>
         </div>
-        <a href="#intro"><svg class="arrows">
+        <a href="#about"><svg class="arrows">
                 <path class="a1" d="M0 0 L30 32 L60 0"></path>
                 <path class="a2" d="M0 20 L30 52 L60 20"></path>
                 <path class="a3" d="M0 40 L30 72 L60 40"></path>
@@ -49,13 +64,13 @@
     </header>
 
 
-    <section id="intro">
+    <section id="about">
         <h2
-            style="display:flex;justify-content: center;font-size: 40px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-            Vision and Mission</h2>
-        <div style="background-color:red;width: 20vw;height: 3px;position: relative;left: 34.3vw;margin-bottom: 50px;">
+            style="display:flex;justify-content: center;font-size: 40px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mission</h2>
+        <div style="background-color:red;width: 10vw;height: 3px;position: relative;left: 39.5vw;margin-bottom: 20px;">
         </div>
-        <p>The Robotics Club was founded in the academic year 2019–20 with the sole purpose of Introducing the field of
+        <p class="mission">The Robotics Club was founded in the academic year 2019–20 with the sole purpose of
+            Introducing the field of
             Robotics to NITW, encourage and guide Robotics enthusiasts to pursue it as a career option and create it
             into a haven for all budding Roboticist looking for a community of like minded enthusiasts. We attempt to do
             this by conducting workshops and training sessions and applying the learned skills by competing in Robotics
@@ -695,7 +710,8 @@
             <!-- .............................member................................. -->
             <!-- .............................member................................. -->
             <div class="membre">
-                <img src="./team images/Potnuri Sri Anjali Pravallika - 21ECB0A45 POTNURI SRI ANJALI PRAVALLIKA.jpg" alt="">
+                <img src="./team images/Potnuri Sri Anjali Pravallika - 21ECB0A45 POTNURI SRI ANJALI PRAVALLIKA.jpg"
+                    alt="">
 
                 <div class="info">
                     <h5 class="name">Anjali Pravallika</h5>
@@ -873,7 +889,7 @@
                             <a href="https://www.instagram.com/somilmaldhani?utm_source=qr" class="icon">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -1199,7 +1215,7 @@
                             <a href="https://www.instagram.com/hatchu_02?utm_source=qr" class="icon">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -1349,7 +1365,7 @@
                 <a href="https://www.linkedin.com/company/robotics-club-nit-warangal/"><i
                         class="fab fa-linkedin-in"></i></a>
             </div>
-            <p>NITW © 2020 All Rights Reserved.</p>
+            <p>NITW © 2022 All Rights Reserved.</p>
         </div>
     </footer>
 </body>
