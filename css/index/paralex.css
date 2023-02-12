@@ -2,6 +2,12 @@
     margin: 0;
   }
   
+  body {
+    color: rgba(208, 208, 165, 0.895);
+    background-color: #141313;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+  }
   
   img {
     width: 100%;
@@ -20,7 +26,7 @@
   
   section {
     color: #f1f1f1;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(165, 162, 162);
     padding: 75px 30px;
   }
   
@@ -29,7 +35,7 @@
   }
   
   header {
-    background-image: url('./competitions.jpg');
+    background-image: url(https://picsum.photos/id/142/4272/2848);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -41,9 +47,13 @@
   }
   
 
+
+
+
   
   .header_text {
     text-align: center;
+    color: #3a3a9d;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -58,11 +68,7 @@
   }
   
   .header_text h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    font-weight: 600;
     line-height: 1.5;
-    color: #474747;
-
   }
   @-webkit-keyframes sdb10 {
     0% {
@@ -179,7 +185,7 @@
   
   @media screen and (min-width: 660px) {
     section {
-      background-color: #fefefe;
+      background-color: #100F0F;
       padding: 75px;
       /* border-top: 1px dashed #ff8bc5; */
     }

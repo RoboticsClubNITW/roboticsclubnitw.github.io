@@ -1,0 +1,43 @@
+table.info {
+  width: 640px;
+  margin: 0 auto;
+  border-spacing: 0 6px;
+}
+table.info th,
+table.info td {
+  padding: 12px;
+  vertical-align: center;
+  color: rgb(0, 0, 0);
+}
+table.info caption {
+  background-color: rgb(53, 43, 53);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  letter-spacing: 0.085em;
+}
+table.info th {
+  text-align: left;
+}
+table.info td {
+  background-color: rgb(143, 143, 143);
+}
+.date {
+  display: inline-block;
+  background-color: rgb(200, 200, 200);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+table.info a {
+  color: rgb(85, 204, 240);
+  text-decoration: underline;
+}
+table.info a:hover {
+  text-decoration: none;
+}
+
+.info{
+    justify-content: center;
+}
